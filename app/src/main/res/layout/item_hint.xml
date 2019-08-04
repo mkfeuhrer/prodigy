@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="?selectableItemBackground">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="8dp"
+        android:tint="@color/black"
+        android:src="@drawable/search"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hint"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:text="This is something"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_right"
+        app:tint="@color/black"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
