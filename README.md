@@ -76,11 +76,3 @@ Feel free to [file an issue](https://github.com/mkfeuhrer/prodigy/issues).
   <li>All Suggestions are welcome.</li>
   <li>Fork repository and Contribute.</li>
 </ul>
-
-## Announcements
-
-We have updated Jarvis Bot and it now uses latest python-zulip-api. Also now all the features of Jarvis bot can be used in both stream as well as private messages.
-
-## Acknowledgment
-
-Thanks to [Zulip](https://zulipchat.com/) for providing Zulip Api and Platform.
